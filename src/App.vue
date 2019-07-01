@@ -29,12 +29,6 @@
         ></path>
       </svg>
     </a>
-    <button class="menu-toggle d-lg-none" @click="menuMobileActive = !menuMobileActive">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
     <Menu></Menu>
   </header>
     <router-view></router-view>
